@@ -1,2 +1,2 @@
-python3-pygame
-python3-gpiozero
+pygame
+lgpio

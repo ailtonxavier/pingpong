@@ -1,0 +1,1 @@
+python3 -c "from gpiozero import Button; from signal import pause; c=Button(17); b=Button(27); c.when_pressed=lambda:print('CIMA OK'); b.when_pressed=lambda:print('BAIXO OK'); print('Teste os 2 botoes...'); pause()"
